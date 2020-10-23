@@ -1,0 +1,61 @@
+.main-div{
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: 3vh;
+
+}
+
+.calc{
+  display: block;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.calcForm{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5% 0;
+}
+
+input{
+  font-size: 3vh;
+}
+
+h1{
+  color: blue;
+}
+
+
+.displayValue{
+  color: Purple;
+}
+
+.highlightOver{
+  color: red
+}
+
+.highlightUnder{
+  color: green;
+}
+
+.dropbtn{
+  margin:
+}
+
+.residualValue{
+  border: 1px solid blue;
+  margin-left: 2%;
+  font-size: 20px;
+  padding: .5%;
+
+}
+
+.residualValue:hover{
+  border: 1px solid blue;
+  color: white;
+  background-color: blue;
+
+}
